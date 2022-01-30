@@ -2,7 +2,7 @@ import streamlit as st
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
-@st.cache
+
 def summ(text):
     sw = set(stopwords.words('english'))
     words = word_tokenize(text)
