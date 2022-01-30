@@ -1,4 +1,4 @@
-# Multi App
+# Multi-Page App
 A simple calculator app and text summarizer is deployed using Streamlit.
 
 Link to access the deployed apps https://share.streamlit.io/vishnushigi/multi_app/main/cd.py
