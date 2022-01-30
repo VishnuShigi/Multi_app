@@ -3,6 +3,7 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
 nltk.download('stopwords')
+nltk.download('punkt')
 def summ(text):
     sw = set(stopwords.words('english'))
     words = word_tokenize(text)
