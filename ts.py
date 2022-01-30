@@ -44,3 +44,5 @@ def tsm():
     if text != '':
         suma = summ(text)
         st.write('Summarized Text:\n', suma)
+    else:
+        st.write("Enter Text")
